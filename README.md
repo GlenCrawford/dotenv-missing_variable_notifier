@@ -6,7 +6,7 @@ dotenv-missing_variable_notifier is a tiny (literally 6 lines of code) extension
 
 Add the gem to your Gemfile _after_ `dotenv-rails`.
 
-```
+```ruby
 group :development, :test do
   gem 'dotenv-rails'
   gem 'dotenv-missing_variable_notifier', '~> 1.0'
